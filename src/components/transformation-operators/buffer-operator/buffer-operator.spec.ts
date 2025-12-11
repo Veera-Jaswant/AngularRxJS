@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomObservable } from './custom-observable';
+import { BufferOperator } from './buffer-operator';
 
-describe('CustomObservable', () => {
-  let component: CustomObservable;
-  let fixture: ComponentFixture<CustomObservable>;
+describe('BufferOperator', () => {
+  let component: BufferOperator;
+  let fixture: ComponentFixture<BufferOperator>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CustomObservable]
+      imports: [BufferOperator]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CustomObservable);
+    fixture = TestBed.createComponent(BufferOperator);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
